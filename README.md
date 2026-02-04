@@ -1,3 +1,3 @@
-# BNP-ISBA.github.io
+# BayesAI-ISBA.github.io
 
-BNP-ISBA website. Visit us at https://bnp-isba.github.io/
+BayesAI-ISBA website. Visit us at https://bayesai-isba.github.io/
