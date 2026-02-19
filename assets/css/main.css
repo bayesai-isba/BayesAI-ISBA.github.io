@@ -9,8 +9,8 @@
 
 /* Normalize board member photos */
 .image.left img {
-  width: 160px;      /* same width for all */
-  height: 160px;     /* same height for all */
+  width: 200px;      /* same width for all */
+  height: 200px;     /* same height for all */
   object-fit: cover; /* crop instead of stretching */
   border-radius: 8px; /* optional: nicer look */
 }
