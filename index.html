@@ -10,55 +10,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         height: 1px;  /* set the height of the line */
         background: repeating-linear-gradient(90deg,#dadada 0 10px,#0000 0 12px);
       }
-
-      /* Layout: wide main content + fixed sidebar */
-      #wrapper {
-        display: flex;
-        align-items: flex-start;
-      }
-
-      #main {
-        flex: 1; /* take remaining space */
-        padding: 20px;
-        max-width: calc(100% - 320px); /* keep space for sidebar (300 + padding/border) */
-        box-sizing: border-box;
-      }
-
-      #sidebar {
-        position: fixed;
-        right: 0;
-        top: 0;
-        width: 300px;           /* fixed width */
-        height: 100%;
-        overflow-y: auto;       /* scroll inside if long */
-        background: #f9f9f9;    /* subtle contrast */
-        border-left: 1px solid #ddd;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-      }
-
-      /* Optional: small-screen fallback (sidebar stacks) */
-      @media (max-width: 900px) {
-        #sidebar {
-          position: static;
-          width: 100%;
-          height: auto;
-          border-left: 0;
-          border-top: 1px solid #ddd;
-        }
-        #main {
-          max-width: 100%;
-          padding: 16px;
-        }
-        #wrapper {
-          display: block;
-        }
-      }
     </style>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>BayesAI-ISBA: home</title>
